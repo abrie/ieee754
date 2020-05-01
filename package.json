@@ -1,12 +1,16 @@
 {
   "version": "0.1.0",
   "license": "MIT",
+  "name": "@eirba/ieee754",
+  "author": "abrie",
+  "email": "contact@abrie.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abrie/ieee754"
+  },
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "src"
-  ],
+  "files": ["dist", "src"],
   "engines": {
     "node": ">=10"
   },
@@ -29,8 +33,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "ieee754",
-  "author": "abrie",
   "module": "dist/ieee754.esm.js",
   "devDependencies": {
     "husky": "^4.2.5",
